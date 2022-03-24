@@ -2,13 +2,12 @@ import styled from 'styled-components'
 
 
 export const Image = styled.div`
-width: 40%;
-border-radius: 5px;
-height: 50%;
 
 & > img {
-width: 30px;
-height: 30px;
+width: 25px;
+height: 25px;
 border-radius: 5px;
+margin-top: 10px;
+margin-right: 50px;
 }
 `;

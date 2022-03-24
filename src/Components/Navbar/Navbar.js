@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, NavbarContainer, NavMenu, NavItem, NavLinks } from './Navbar.elements';
+import { Nav, NavbarContainer, NavMenu, NavLogo, NavItem, NavLinks, UserArea } from './Navbar.elements';
 import Logo from '../../Assets/images/logo.svg'
 import Cart from '../../Assets/Cart/Cart'
 import Avatar from '../../Assets/Avatar/Avatar'
@@ -10,8 +10,11 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
+        
         <NavMenu>
+        <NavLogo to='/'>
           <img src={Logo} alt='Company logo' />
+          </NavLogo>
           <NavItem>
             <NavLinks>Collections</NavLinks>
           </NavItem>
@@ -32,8 +35,12 @@ const Navbar = () => {
           <NavLinks>Contact</NavLinks>
           </NavItem>
         </NavMenu>
+
+        <UserArea>
         <Cart />
         <Avatar />
+        </UserArea>
+
         </NavbarContainer>
       </Nav>
     </>

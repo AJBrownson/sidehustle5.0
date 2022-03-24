@@ -1,5 +1,4 @@
 import styled from "styled-components";
-// import { Link } from 'react-router-dom'
 import { Container } from '../../GlobalStyles'
 
 
@@ -23,6 +22,11 @@ justify-content: space-between;
 ${Container}
 `;
 
+
+export const NavLogo = styled.div`
+margin-right: 10%;
+cursor: pointer;
+`;
 
 // export const NavLogo = styled(Link)`
 // color: #000067;
@@ -52,9 +56,12 @@ ${Container}
 
 export const NavMenu = styled.ul`
 display: flex;
+height: 20px;
 align-items: center;
+justify-content: space-around;
 list-style: none;
 text-align: center;
+
 @media screen and (max-width: 991px) {
     display: flex;
     flex-direction: column;
@@ -70,11 +77,13 @@ text-align: center;
 `;
 
 export const NavItem = styled.li`
-height: 80px;
+height: 105px;
 border-bottom: 2px solid transparent;
+
 &:hover {
-    border-bottom: 2px solid #000016;
+    border-bottom: 2px solid hsl(26, 100%, 55%);
 }
+
 @media screen and (max-width: 991px) {
     width: 100%;
     &:hover {
@@ -91,6 +100,7 @@ list-style: none;
 padding: 0.5rem 1rem;
 height: 100%;
 cursor: pointer;
+
 @media screen and (max-width: 991px) {
     text-align: center;
     padding: 2rem;
@@ -101,4 +111,11 @@ cursor: pointer;
         transition: all 0.3s ease;
     }
 }
+`;
+
+
+export const UserArea = styled.div`
+display: flex;
+justify-content: space-between;
+margin-top: 15px;
 `;
