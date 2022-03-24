@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+main {
+  margin: auto;
+  padding-inline-start: 5%;
+  padding-inline-end: 5%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin: auto;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid hsl(220, 14%, 75%);
+}
+
+.logo {
+  margin-top: 1px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
+}
+
+li {
+  list-style-type: none;
+  color: hsl(219, 9%, 45%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(220, 13%, 13%);
+}
+
+.user {
+  display: flex;
+  margin-inline-start: 60%;
+  /*margin-inline-end: 10%;*/
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user > .avatar {
+  height: 40px;
+  width: 40px;
+  margin-left: 30%;
+}
+
+.user > .avatar:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  margin-top: 2%;
+}
+
+.product__card {
+  display: flex;
+  margin-top: 5%;
+  width: 70%;
+  margin-left: 20%;
+}
+
+.product__card > img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.info {
+  width: 60%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.product__name {
+  text-transform: uppercase;
+  color: hsl(26, 100%, 50%);
+  margin-top: 5%;
+  font-size: smaller;
+}
+
+.product__info {
+  font-size: 15px;
+}
+
+.product__price > .big {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.product__price > .small {
+  margin-left: 2%;
+  font-size: 15px;
+  font-weight: 900;
+  color: hsl(26, 100%, 50%);
+  background-color: hsl(25, 100%, 94%);
+  padding: 5px 3px;
+  border-radius: 5px;
+}
+
+.discount {
+  font-size: 15px;
+  color: hsl(219, 9%, 45%);
+  text-decoration: line-through;
+}
+
+.action__call {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.action__call > img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+    brightness(102%) contrast(102%);
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  padding: 0% 5%;
+  background: hsl(223, 64%, 98%);
+}
+
+.increment {
+  display: block;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.decrement {
+  display: block;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.numbers {
+  margin-top: 33%;
+  background: hsl(223, 64%, 98%);
+}
+
+.btn {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 2px 50px;
+  background-color: hsl(26, 100%, 55%);
+  border-color: hsl(26, 100%, 55%);
+  border-radius: 10px;
+}
+
+.btn > img {
+  padding-right: 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+.btn > p {
+  font-size: 15px;
+  font-weight: bolder;
+  color: hsl(0, 0%, 100%);
+}
+
+.product__thumbnail {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  margin-inline-start: 10%;
+}
+
+.product__thumbnail > img {
+  margin-top: 5%;
+  width: 20%;
+  height: 5%;
+  border-radius: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(355, 93%, 49%);
+}
