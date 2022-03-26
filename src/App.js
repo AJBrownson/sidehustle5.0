@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
-import ImageSlider from './Components/ImageSlider/ImageSlider'
+import MainPage from './Components/Pages/MainPage';
+
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <ImageSlider />
+      <MainPage />
     </>
   );
 }
