@@ -1,9 +1,9 @@
 import React from "react";
-import { Nav, NavbarContainer, NavMenu, NavLogo, NavItem, NavLinks, UserArea } from './Navbar.elements';
+import { Nav, NavbarContainer, MobileMenu, NavMenu, NavLogo, NavItem, NavLinks, UserArea } from './Navbar.elements';
 import Logo from '../../Assets/images/logo.svg'
 import Cart from '../../Assets/Cart/Cart'
 import Avatar from '../../Assets/Avatar/Avatar'
-
+import Menu from '../../Assets/images/icon-menu.svg'
 
 const Navbar = () => {
   return (
@@ -15,6 +15,10 @@ const Navbar = () => {
         <NavLogo to='/'>
           <img src={Logo} alt='Company logo' />
           </NavLogo>
+        <MobileMenu>
+          <img src={Menu} alt='' />
+        </MobileMenu>
+
           <NavItem>
             <NavLinks>Collections</NavLinks>
           </NavItem>
