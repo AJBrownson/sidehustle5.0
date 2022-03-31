@@ -7,7 +7,7 @@ export const Image = styled.div`
 width: 25px;
 height: 25px;
 border-radius: 5px;
-margin-top: 10px;
+margin-top: 8px;
 margin-right: 50px;
 }
 `;

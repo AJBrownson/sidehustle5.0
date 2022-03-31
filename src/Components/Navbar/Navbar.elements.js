@@ -4,6 +4,7 @@ import { Container } from '../../GlobalStyles'
 
 export const Nav = styled.nav`
 margin: 0;
+margin-bottom: 0;
 height: 80px;
 background-color: #fff;
 display: flex;
@@ -28,7 +29,9 @@ margin-right: 10%;
 cursor: pointer;
 `;
 
-// export const NavLogo = styled(Link)`
+
+
+
 // color: #000067;
 // justify-self: flex-start;
 // text-decoration: none;

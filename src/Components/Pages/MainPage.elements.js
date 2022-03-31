@@ -77,7 +77,7 @@ export const InfoCard = styled.div`
 
 width: 60%;
 margin-top: 10%;
-margin-left: 25%;
+margin-left: 20%;
 
 @media screen and (max-width: 768px) {
     width: 90%;
