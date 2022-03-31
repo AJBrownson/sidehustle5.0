@@ -32,9 +32,8 @@ margin-top: 2%;
 export const PicturesCard = styled.div`
 display: flex;
 margin-top: 5%;
-
+margin-left: 20%;
 width: 70%;
-border: 1px solid black;
 
 img {
     width: 100%;
@@ -78,7 +77,7 @@ export const InfoCard = styled.div`
 
 width: 60%;
 margin-top: 10%;
-margin-left: 5%;
+margin-left: 25%;
 
 @media screen and (max-width: 768px) {
     width: 90%;
