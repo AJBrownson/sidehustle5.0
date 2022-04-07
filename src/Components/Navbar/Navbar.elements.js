@@ -13,6 +13,10 @@ justify-content: space-between;
 align-items: center;
 font-size: 18px;
 border-bottom: 1px solid hsl(55, 12%, 82%);
+
+@media screen and (max-width: 768px) {
+    border-bottom: 1px solid transparent;
+}
 `;
 
 

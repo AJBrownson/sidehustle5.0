@@ -199,6 +199,11 @@ export const MinusCounter = styled.span`
 & > img {
     padding-bottom: 3px;
 }
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
 `;
 
 
@@ -206,6 +211,11 @@ export const PlusCounter = styled.span`
 
 & > img {
     padding-top: 2px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 `;
 
