@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Main, Products, PicturesCard, RotationKeys, InfoCard, ThumbNails, Thumbs, 
 CompanyName, ProductTitle, ProductInfo, PriceDiscount, ProductPrice, Big, 
 Small, Discount, Btns, CounterButton, MinusCounter, PlusCounter, ActionButton} from './MainPage.elements'
@@ -12,23 +12,10 @@ import Next from '../../Assets/images/icon-next.svg'
 
 
 
-// const LightBox = [
-//   "/images/image-product-1.jpg",
-//   "/images/image-product-2.jpg",
-//   "/images/image-product-3.jpg",
-//   "/images/image-product-4.jpg"
-// ]
-
-
-
 const MainPage = () => {
-  const [indexOfImages, setIndexOfImages] = useState(0)
-  const [showModal, setShowModal] = useState(false)
-
 
   return (
     <>
-    {/*   */}
         <Main>
           <Products>
             <PicturesCard>

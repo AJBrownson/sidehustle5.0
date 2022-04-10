@@ -8,6 +8,6 @@ width: 25px;
 height: 25px;
 border-radius: 5px;
 margin-top: 8px;
-margin-right: 50px;
+margin-right: 40px;
 }
 `;

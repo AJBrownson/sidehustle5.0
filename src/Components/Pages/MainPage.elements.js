@@ -11,6 +11,7 @@ align-items: center;
 justify-content: center;
 
 @media screen and (max-width: 768px) {
+    padding: 0;
     margin: 0 auto;
     width: 100%;
 }
@@ -230,6 +231,10 @@ padding: 10px 20px;
 border: hidden;
 border-radius: 10px;
 cursor: pointer;
+
+:hover {
+    opacity: 0.5;
+}
 
 & > img {
     padding-top: 9px;
