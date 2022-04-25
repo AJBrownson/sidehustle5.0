@@ -78,7 +78,7 @@ const About = () => {
                 alt=''
                 style={{ width: '300px', height: '300px' }}
               />
-              <p>Sue Chef</p>
+              <p>Sous Chef</p>
             </div>
           </div>
         </div>
