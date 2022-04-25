@@ -12,7 +12,7 @@ function Home() {
       }}
     >
       <div className="banner__contents">
-        <h1 className="banner__title">Sidehustle International Restaurant</h1>
+        <h1 className="banner__title">Chop's Resturant</h1>
         <div className="banner__buttons">
           <button className="banner__button__join" href="www.facebook.com">
             Join
