@@ -7,7 +7,7 @@ import { Container } from '../../GlobalStyles';
 export const Nav = styled.nav`
 margin: 0;
 height: 80px;
-background-color: #fff;
+background-color: rgb(58, 57, 57, 1);
 display: flex;
 position: sticky;
 justify-content: space-between;
@@ -26,7 +26,7 @@ ${Container}
 
 
 export const NavLogo = styled(Link)`
-color: #000067;
+color: #fff;
 justify-self: flex-start;
 text-decoration: none;
 font-size: 2rem;
@@ -96,8 +96,9 @@ text-decoration: none;
 list-style: none;
 padding: 0.5rem 1rem;
 height: 100%;
+
 &:active {
-        color: blue;
+        color: white;
     }
 @media screen and (max-width: 991px) {
     text-align: center;

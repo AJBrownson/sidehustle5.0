@@ -5,7 +5,7 @@ import { FaPizzaSlice } from 'react-icons/fa';
 
 
 export const Foooter = styled.footer`
-background-color: #000016;
+background-color: rgb(58, 57, 57, 1);
 margin-top: 20%;
 justify-content: space-between;
 align-items: center;
