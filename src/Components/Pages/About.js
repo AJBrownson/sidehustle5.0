@@ -16,15 +16,15 @@ const About = () => {
           <div className='note'>
             <h1>About Us </h1>
             <p>
-              at Chop's Resturant it is our duty to feed every customer with
-              what ever meal that is other for.{' '}
+              At Chops' Restaurant it is our duty to feed every customer with
+              the best meal ever served.{' '}
               <strong>Your service is our concern</strong> with our wonderful
               recipe we hope to entice you with our taste.
             </p>
             <br />
             <p>
-              We are a located at Kaduna deep in the heart Kano road in a
-              popular place known as town in the north. Knowing how busy that
+              We are a located at Radisson Beach deep in the heart of Venice in a
+              popular place known as Beach of the north. Knowing how busy that
               area could be we were motivated to create a resturant, where you
               could come and cool of and regain your natural strength. that is
               why we choose this strategical site for the purpose of serving you

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars } from 'react-icons/fa';
-import { IconContext } from 'react-icons/lib';
 import { Nav, NavbarContainer, NavLogo, NavIcon, HamburgerIcon, NavMenu, NavItem, NavLinks } from './Navbar.elements';
 
 
@@ -23,6 +22,10 @@ const Navbar = () => {
                   {click ? <FaTimes /> : <FaBars />}
                 </HamburgerIcon>
                 <NavMenu onClick='handleClick' click={click}>
+
+                <NavItem>
+                  <NavLinks to ='/Home'>Home</NavLinks>
+                </NavItem>
 
                 <NavItem>
                   <NavLinks to ='/Products'>Products</NavLinks>

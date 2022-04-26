@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import GlobalStyle from './GlobalStyles';
 import App from './App';
 import Home from './Components/Pages/Home';
+import Products from './Components/Pages/Products';
 import About from './Components/Pages/About';
 import Contact from './Components/Pages/Contact';
 import Footer from './Components/Footer/Footer';
@@ -17,6 +18,8 @@ render (
     <Routes>
         <Route path='/' element={ <App /> }>
         <Route index element={ <Home /> } />
+        <Route path='/home' element={ <Home /> } />
+        <Route path='/product' element={ <Products /> } />
         <Route path='/about' element={ <About /> } />
         <Route path='/contact' element={ <Contact /> } />
         </Route>

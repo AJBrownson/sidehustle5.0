@@ -96,9 +96,10 @@ text-decoration: none;
 list-style: none;
 padding: 0.5rem 1rem;
 height: 100%;
+color: white;
 
 &:active {
-        color: white;
+        color: blue;
     }
 @media screen and (max-width: 991px) {
     text-align: center;
