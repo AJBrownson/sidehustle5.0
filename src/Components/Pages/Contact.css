@@ -1,0 +1,42 @@
+.contact-p {
+  text-align: center;
+  color: black;
+  padding: 1rem;
+}
+
+.form-container {
+  background-color: rgba(196, 205, 223, 0.349);
+  padding: 2rem;
+  margin: auto;
+  max-width: 7 0%;
+}
+
+.form-message {
+  text-align: center;
+}
+
+.form-fields input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 16px;
+  margin: .9vw 0;
+  border: 1px solid rgba(196, 205, 223, 0.349);
+  border-radius: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(37, 36, 36);
+  border: 1px solid rgba(196, 205, 223, 0.349);
+  color: white;
+  font-size: 16px;
+  width: 100%;
+
+}
