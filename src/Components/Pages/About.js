@@ -40,7 +40,7 @@ const About = () => {
                 style={{ width: '400px', height: '200px' }}
               />
 
-              <p>Akpu and Egusi</p>
+              <p>Chef Special of the day</p>
             </div>
             <div className='column card'>
               <img
@@ -49,7 +49,7 @@ const About = () => {
                 style={{ width: '400px', height: '200px' }}
               />
 
-              <p>Okoro Soup</p>
+              <p>Hamburger and Fries</p>
             </div>
           </div>
         </div>

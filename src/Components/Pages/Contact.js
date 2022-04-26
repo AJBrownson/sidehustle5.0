@@ -29,7 +29,7 @@ function Contact(){
           <button className='form-button' type='submit'>send</button>
           
         </form>
-          <p className='contact-p'>Or you Can Email Us at chopresturant@gmail.com</p>
+          <p className='contact-p'>Or you Can Email Us at chopsrestaurant@gmail.com</p>
     </section>
     </>
   )
